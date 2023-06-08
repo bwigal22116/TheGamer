@@ -1,0 +1,7 @@
+1: HTTP/1.1 302 Found: https://blooket.com/blooks/homeblooks.png
+1: HTTP/1.1 302 Found: https://blooket.com/blooks/goldfish200.png
+1: HTTP/1.1 302 Found: https://blooket.com/blooks/chick200.png
+1: HTTP/1.1 302 Found: https://blooket.com/blooks/cow200.png
+1: HTTP/1.1 302 Found: https://blooket.com/./eventtrophy.svg
+1: HTTP/1.1 302 Found: https://blooket.com/./stuffbox.svg
+1: HTTP/1.1 302 Found: https://blooket.com/./improvetools.svg
