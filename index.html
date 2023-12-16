@@ -26,6 +26,7 @@
   height: 4px;
   background-color: #00FF00;
   animation: neonGlow 4s linear infinite;
+  z-index: -1;
 }
 
 @keyframes neonGlow {
@@ -34,23 +35,15 @@
   }
   25% {
     transform: translateX(calc(100% - 4px));
-    top: 0;
-    height: 100%;
   }
   50% {
-    transform: translateY(100%);
-    top: 0;
-    height: 100%;
+    transform: translateY(calc(100% - 4px));
   }
   75% {
     transform: translateX(-100%);
-    top: 0;
-    height: 100%;
   }
   100% {
     transform: translateY(-100%);
-    top: 0;
-    height: 100%;
   }
 }
 
