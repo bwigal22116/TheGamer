@@ -1,24 +1,75 @@
-<title>Google Drive</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQM3BDXY6E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<div id="topbar">
+  <div class="games">
+   <a href="https://fusion-game.github.io/FUSION/">Home 🏡</a><a href="https://fusion-game.github.io/FUSION/News/">News 🗞️</a>
+  </div>
+ </div>
 
-  gtag('config', 'G-FQM3BDXY6E');
-</script>
+<style>
+ #topbar {
+  background-color: #ADD8E6;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
 
- <script>
-  function checkCookie() {
-  let username = getCookie("alertshowed");
-  if (username != "y") {
-    console.log("this website contains cookies");
-  } else {
-alert("Good Job finding this website!");
-    document.cookie = "alertshown?=y";
-      }
-  } 
-</script>
+#topbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 10px 10px #00FF00;
+  animation: neonGlow 2s linear infinite;
+}
 
+@keyframes neonGlow {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px 20px #00FF00;
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
 
+#topbar a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+#topbar a:hover {
+  background-color: #F8F9FA;
+}
+
+#topbar .games {
+  display: flex;
+  align-items: center;
+}
+
+#topbar .games img {
+  padding-right: 5px;
+}
+</style>
+</head>
+<body>
+<div id="topbar">
+ <div class="games">
+  <a href="https://bearcat-gaming.github.io/Proton/">Home 🏡</a>
+  <a href="https://bearcat-gaming.github.io/Proton/News/">News 🗞️</a>
+  <a href="https://bearcat-gaming.github.io/Proton/main">Games 🎮</a>
+  <a href="https://bearcat-gaming.github.io/Proton/internet/">Interstellar 🌐</a>
+ </div>
+</div>
