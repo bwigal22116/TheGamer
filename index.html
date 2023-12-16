@@ -8,6 +8,38 @@
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+#topbar:before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  background-color: #00FF00;
+  animation: neonGlow 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes neonGlow {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  75% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 #topbar a {
